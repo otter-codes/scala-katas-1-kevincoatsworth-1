@@ -11,5 +11,6 @@ import scala.io.StdIn
 //    val x =  f(list.head) :: returnMultipleOfIndex(list.tail, f)
 //
 //    return x
+
 //
 //  }
