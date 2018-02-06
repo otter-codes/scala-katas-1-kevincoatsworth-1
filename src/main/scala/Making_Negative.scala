@@ -2,11 +2,7 @@ import scala.io.StdIn
 
 object Making_Negative extends App {
 
-  val userNum = StdIn.readLine("Please enter a number: ").toInt
-
-  makeNumNegative(userNum)
-
-  def makeNumNegative(num : Int) {
+    def makeNumNegative(num : Int) {
 
     if (num > 0) {
 
@@ -20,5 +16,9 @@ object Making_Negative extends App {
 
     }
   }
+
+  val userNum = StdIn.readLine("Please enter a number: ").toInt
+
+  makeNumNegative(userNum)
 
 }
